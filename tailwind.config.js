@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["var(--font-montserrat)", ...fontFamily.sans],
-        display: ["var(--font-merryweather)", ...fontFamily.sans],
+        display: ["var(--font-merriweather)", ...fontFamily.sans],
       },
       keyframes: {
         "accordion-down": {
