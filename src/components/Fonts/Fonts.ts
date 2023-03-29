@@ -1,12 +1,12 @@
-import { Montserrat, Merriweather } from "@next/font/google";
+import { Oswald, Noto Serif } from "@next/font/google";
 
-export const montserrat = Montserrat({
+export const Oswald = Oswald({
   subsets: ["latin"],
-  variable: "--font-montserrat",
+  variable: "--font-Oswald",
 });
 
-export const merriweather = Merriweather({
+export const Noto Serif = Noto Serif({
   subsets: ["latin"],
   weight: "700",
-  variable: "--font-merriweather",
+  variable: "--font-Noto Serif",
 });
