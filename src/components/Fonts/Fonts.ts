@@ -1,12 +1,12 @@
-import { Oswald, Noto Serif } from "@next/font/google";
+import { Raleway, Lato } from "@next/font/google";
 
-export const Oswald = Oswald({
+export const Raleway = Raleway({
   subsets: ["latin"],
-  variable: "--font-Oswald",
+  variable: "--font-Raleway",
 });
 
-export const Noto Serif = Noto Serif({
+export const Lato = Lato({
   subsets: ["latin"],
   weight: "700",
-  variable: "--font-Noto Serif",
+  variable: "--font-Lato",
 });
