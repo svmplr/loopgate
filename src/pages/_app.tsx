@@ -24,7 +24,7 @@ const App = ({ Component, pageProps }: AppProps) => {
             walletConnectName: "WalletConnect",
           }}
         >
-          <main className={`${Inter.variable} ${Unbounded.variable} font-sans`}>
+          <main className={`${inter.variable} ${unbounded.variable} font-sans`}>
             <NextHeadBase />
             {mounted && <Component {...pageProps} />}
           </main>
