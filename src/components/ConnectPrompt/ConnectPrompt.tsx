@@ -17,10 +17,10 @@ const ConnectPrompt = () => {
     <div className="flex flex-col items-center justify-center flex-grow space-y-10 px-6">
       <div className="space-y-2 flex flex-col items-center text-center">
         <h1 className="text-2xl lg:text-4xl font-medium font-display">
-          Connect your wallet to unlock your SVMPLR assets and songs.
+          Connect your Wallet to unlock content.
         </h1>
         <p className="text-white/70">
-          Experience the future of music and true ownership.
+          Manage your assets and songs.
         </p>
       </div>
       {address ? (
