@@ -1,13 +1,13 @@
-import { Lato, Merriweather } from "@next/font/google";
+import { Inter, Unbounded } from "@next/font/google";
 
-export const lato = Lato({
+export const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-lato",
+  variable: "--font-inter",
   weight: "100"
 });
 
-export const merriweather = Merriweather({
+export const unbounded = Unbounded({
   subsets: ["latin"],
   weight: "700",
-  variable: "--font-merriweather",
+  variable: "--font-unbounded",
 });
