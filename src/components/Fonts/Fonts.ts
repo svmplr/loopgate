@@ -1,11 +1,12 @@
-import { Inter, Unbounded } from "@next/font/google";
+import { Montserrat, Merriweather } from "@next/font/google";
 
-export const inter = Inter({
+export const Montserrat = Montserrat({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-montserrat",
 });
 
-export const unbounded = Unbounded({
+export const merriweather = Merriweather({
   subsets: ["latin"],
-  variable: "--font-unbounded",
+  weight: "700",
+  variable: "--font-merriweather",
 });
