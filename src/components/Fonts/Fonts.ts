@@ -1,11 +1,11 @@
-import { Inter, Unbounded } from "@next/font/google";
+import { Roboto, Lora } from "@next/font/google";
 
-export const inter = Inter({
+export const roboto = Roboto({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-roboto",
 });
 
-export const unbounded = Unbounded({
+export const lora = Lora({
   subsets: ["latin"],
-  variable: "--font-unbounded",
+  variable: "--font-lora",
 });
