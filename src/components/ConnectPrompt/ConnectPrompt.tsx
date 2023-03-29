@@ -19,6 +19,9 @@ const ConnectPrompt = () => {
         <h1 className="text-2xl lg:text-4xl font-medium font-display">
           Connect your L2 wallet
         </h1>
+        <p className="text-white/70">
+          To unlock your songs & assets.
+        </p>
       </div>
       {address ? (
         <div className="relative">
