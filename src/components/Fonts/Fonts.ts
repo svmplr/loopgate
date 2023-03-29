@@ -1,12 +1,12 @@
-import { Raleway, Lato } from "@next/font/google";
+import { lato, merriweather } from "@next/font/google";
 
-export const Raleway = Raleway({
+export const lato = lato({
   subsets: ["latin"],
-  variable: "--font-Raleway",
+  variable: "--font-lato",
 });
 
-export const Lato = Lato({
+export const merriweather = merriweather({
   subsets: ["latin"],
   weight: "700",
-  variable: "--font-Lato",
+  variable: "--font-merriweather",
 });

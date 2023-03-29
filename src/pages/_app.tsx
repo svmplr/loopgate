@@ -8,7 +8,7 @@ import { WagmiClient } from "../utils/wagmi";
 import { siwe } from "../utils/siwe";
 import { overrides } from "../styles/ConnectKit/overrides";
 import NextHeadBase from "../components/SEO/NextHeadBase";
-import { Raleway, Lato } from "../components/Fonts/Fonts";
+import { lato, merriweather } from "../components/Fonts/Fonts";
 
 const App = ({ Component, pageProps }: AppProps) => {
   const [mounted, setMounted] = useState(false);
@@ -24,7 +24,7 @@ const App = ({ Component, pageProps }: AppProps) => {
             walletConnectName: "WalletConnect",
           }}
         >
-          <main className={`${Raleway.variable} ${Lato.variable} font-sans`}>
+          <main className={`${lato.variable} ${merriweather.variable} font-sans`}>
             <NextHeadBase />
             {mounted && <Component {...pageProps} />}
           </main>

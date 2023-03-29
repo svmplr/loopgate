@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-Raleway)", ...fontFamily.sans],
-        display: ["var(--font-Lato)", ...fontFamily.sans],
+        sans: ["var(--font-lato", ...fontFamily.sans],
+        display: ["var(--font-merriweather)", ...fontFamily.sans],
       },
       keyframes: {
         "accordion-down": {
