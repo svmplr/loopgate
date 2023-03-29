@@ -20,7 +20,7 @@ const ConnectPrompt = () => {
           Connect your L2 wallet
         </h1>
         <p className="text-white/70">
-          To unlock your songs & assets.
+          Unlock your songs & assets below.
         </p>
       </div>
       {address ? (
