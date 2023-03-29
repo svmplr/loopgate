@@ -17,11 +17,8 @@ const ConnectPrompt = () => {
     <div className="flex flex-col items-center justify-center flex-grow space-y-10 px-6">
       <div className="space-y-2 flex flex-col items-center text-center">
         <h1 className="text-2xl lg:text-4xl font-medium font-display">
-          Connect your Wallet to unlock content.
+          Connect your L2 wallet
         </h1>
-        <p className="text-white/70">
-          Manage your assets and songs.
-        </p>
       </div>
       {address ? (
         <div className="relative">
