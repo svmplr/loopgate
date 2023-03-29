@@ -8,7 +8,7 @@ import { WagmiClient } from "../utils/wagmi";
 import { siwe } from "../utils/siwe";
 import { overrides } from "../styles/ConnectKit/overrides";
 import NextHeadBase from "../components/SEO/NextHeadBase";
-import { lato, merriweather } from "../components/Fonts/Fonts";
+import { Lato, Merriweather } from "../components/Fonts/Fonts";
 
 const App = ({ Component, pageProps }: AppProps) => {
   const [mounted, setMounted] = useState(false);
