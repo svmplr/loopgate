@@ -3,6 +3,7 @@ import { Lato, Merriweather } from "@next/font/google";
 export const lato = Lato({
   subsets: ["latin"],
   variable: "--font-lato",
+  weight: "100"
 });
 
 export const merriweather = Merriweather({
