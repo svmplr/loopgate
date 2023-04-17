@@ -134,18 +134,18 @@ const unlockables: Unlockable[] = [
       "0xfee43e951635858d077b45de6d2c67919be5d76ee8829c45171292ec9e19e143",
     ],
   },
-  {                              // MIXTAPE - RORSCHACH //
+  {                              /* MIXTAPE - RORSCHACH */
     cid: "bafybeiecnv2x62bmtdkswmc6qjdptssjr6jzi4ksw4yzu457yw6md3hyua", /* Rorschach */
     nftId: [
       "0x1703cb457a2c270c8e016f26a0295aafa6356b2cbd11cbb6b1daa0cca0a9e20e",
     ],
   },
-  {                           // BONUS DJ SET - RORSCHACH //
+  {                           /* BONUS DJ SET - RORSCHACH */
     cid: "bafybeignizscfldiumlj4puqwqpyqd67jk6ufqlg6lmfzy2t6bzyctdf2q", /* Rorschach */
     nftId: [
       "0x1703cb457a2c270c8e016f26a0295aafa6356b2cbd11cbb6b1daa0cca0a9e20e",
     ],
-  },    
+  },
     /*//////////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////////////////////*/
