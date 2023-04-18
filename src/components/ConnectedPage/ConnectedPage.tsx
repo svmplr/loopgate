@@ -55,8 +55,8 @@ const ConnectedPage = () => {
                 {unlocks.map((unlock) => (
                   <UnlockLink
                     key={`${unlock.item.id}${unlock.accessLink}`}
-                    title={"Download"}
-                    unlockUrl={unlock.accessLink}
+                    title={unlock.item.name}
+                    unlockUrl={"Download"}
                     cid={unlock.item.cid}
                   />
                 ))}
