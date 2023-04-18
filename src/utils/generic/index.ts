@@ -1,6 +1,6 @@
-import checkIfcontainsany from "./checkIfcontainsany";
+import checkIfContainsAny from "./checkIfContainsAny";
 import findUnlockedCids from "./findUnlockedCids";
 import getCurrentYear from "./getCurrentYear";
 import cn from "./cn";
 
-export { checkIfcontainsany, findUnlockedCids, getCurrentYear, cn };
+export { checkIfContainsAny, findUnlockedCids, getCurrentYear, cn };
