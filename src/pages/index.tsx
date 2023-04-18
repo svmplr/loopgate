@@ -11,7 +11,7 @@ const Page = () => {
     <div
       className="min-h-screen h-full flex flex-col bg-cover bg-center"
       style={{
-        backgroundImage: "url('images/hero-blur.jpg')",
+        backgroundImage: "url('images/login.svmplr.com-background.jpg')",
       }}
     >
       <Header />

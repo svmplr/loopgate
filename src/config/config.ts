@@ -21,10 +21,14 @@ Here are two examples:
 
 const unlockables: Unlockable[] = [
   
-  {                              
-    cid: "bafybeiakgraksww3ms42laanu22v6gc7mmdq5bohw4y7qvpadjhgn334yq",
+  {                       // [MIXTAPE ALBUM] Rorschach //
+    cid: [
+      "bafybeieb6qbvnly35nh4ok4n4sbhexh2aar2jgdnroz4aj4bhholpademu", 
+      "bafybeibwcad2y74iqtkyrxrnmjkh2lmyl6pxnbkmlnpdfaqwvvcz3dc4ty",
+      "bafybeignizscfldiumlj4puqwqpyqd67jk6ufqlg6lmfzy2t6bzyctdf2q",
+     ],
     nftId: [
-      "0x6c2da065b29c6fce4dbf81184c9cad97320513502c22c80ecfcd4144c5963daf",
+      "0x1703cb457a2c270c8e016f26a0295aafa6356b2cbd11cbb6b1daa0cca0a9e20e",
     ],
   },
 ];

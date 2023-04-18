@@ -1,5 +1,5 @@
 export interface Unlockable {
-  cid: `baf${string}`; // Submarined Pinata files always start with 'baf'
+  cid: `baf${string}`[]; // Submarined Pinata files always start with 'baf'
   name?: string; // Names are optional. If unspecified, the 'name' set inside Pinata will be used.
   nftId: `0x${string}`[];
 }
