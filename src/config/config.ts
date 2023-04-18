@@ -22,19 +22,7 @@ Here are two examples:
 const unlockables: Unlockable[] = [
   
   {                       // [MIXTAPE ALBUM] Rorschach //
-    cid: "bafybeieb6qbvnly35nh4ok4n4sbhexh2aar2jgdnroz4aj4bhholpademu", // MP3
-    nftId: [
-      "0x1703cb457a2c270c8e016f26a0295aafa6356b2cbd11cbb6b1daa0cca0a9e20e",
-    ],
-  },
-  {                       
-    cid: "bafybeibwcad2y74iqtkyrxrnmjkh2lmyl6pxnbkmlnpdfaqwvvcz3dc4ty", // WAV
-    nftId: [
-      "0x1703cb457a2c270c8e016f26a0295aafa6356b2cbd11cbb6b1daa0cca0a9e20e",
-    ],
-  },
-  {                       
-    cid: "bafybeignizscfldiumlj4puqwqpyqd67jk6ufqlg6lmfzy2t6bzyctdf2q", // ZIP     
+    cid: "bafybeib7gb7paef2c2t4eluaplukidqi2opa32cvm4fofkkl6sddksy4lu", // MP3
     nftId: [
       "0x1703cb457a2c270c8e016f26a0295aafa6356b2cbd11cbb6b1daa0cca0a9e20e",
     ],
