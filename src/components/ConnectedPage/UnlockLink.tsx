@@ -12,7 +12,8 @@ interface Props {
 }
 
 const UnlockLink = ({ title, unlockUrl, cid, filename }: Props) => {
-  const downloadUrl = `${unlockUrl}?filename=${encodeURIComponent(filename)}`;
+  const downloadUrl = `${unlockUrl}?filename=${encodeURIComponent(filename)}&cid=${cid}`;
+
 
   return (
     <a
