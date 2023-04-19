@@ -40,3 +40,5 @@ const UnlockLink = ({ title, unlockUrl, cid, filename }: Props) => {
     </a>
   );
 };
+
+export default UnlockLink;
