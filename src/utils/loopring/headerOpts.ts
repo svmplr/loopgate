@@ -2,6 +2,7 @@
 const headerOpts = {
   headers: {
     "X-API-KEY": `${process.env.LOOPRING_API_KEY}`,
+    "Content-Disposition": "attachment",
   },
 };
 
