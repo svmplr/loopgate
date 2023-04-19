@@ -8,7 +8,7 @@ interface Props {
   title: string;
   unlockUrl: string;
   cid: `baf${string}`;
-  fileName: string;
+  fileName?: string; // Make the `fileName` prop optional
 }
 
 const UnlockLink = ({ title, unlockUrl, cid, fileName }: Props) => {
@@ -18,7 +18,7 @@ const UnlockLink = ({ title, unlockUrl, cid, fileName }: Props) => {
       href={unlockUrl}
       target="_blank"
       rel="noreferrer"
-      download={fileName}
+      download={fileName} // Use the `download` attribute to set the filename
     >
       <div className="bg-sky-500/70 group-hover:bg-sky-500 rounded-md h-8 w-8 flex-shrink-0 text-slate-900 duration-150 relative overflow-hidden">
         <LockClosedIcon className="absolute h-full w-full left-0 top-0 p-1.5 duration-150 ease-in-out group-hover:translate-y-full" />

@@ -58,8 +58,8 @@ const ConnectedPage = () => {
                   title={unlock.item.name}
                   unlockUrl={unlock.accessLink}
                   cid={unlock.item.cid}
-                  fileName={unlock.item.name}
-                />
+                  fileName={`${unlock.item.name}.${unlock.item.fileExtension}`} // Pass the `fileName` prop
+                />                
                 ))}
               </div>
             ) : (
