@@ -1,5 +1,4 @@
 import { Unlockable } from "./types";
-
 /*********************************************************
 Replace the `unlockables` below with your own content. 
 Here are two examples:
@@ -24,7 +23,7 @@ const unlockables: Unlockable[] = [
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-
+/*
                 //        If you got any, you get access
   {            //       [BONUS] SVMPLR - CYBERRAVE II
     cid: "bafybeignblyryrcyyyqft5l2btzfcqdlw6a32baat3ddjr7rz5boruakna",
@@ -117,6 +116,7 @@ const unlockables: Unlockable[] = [
       "0x1703cb457a2c270c8e016f26a0295aafa6356b2cbd11cbb6b1daa0cca0a9e20e", // [MIXTAPE] Rorschach
     ],
   },
+  */
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////
