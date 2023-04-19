@@ -14,7 +14,7 @@ const UnlockLink = ({ title, unlockUrl, cid }: Props) => {
   return (
     <a
       className="flex space-x-4 items-center w-full border-t border-white/20 py-4 hover:bg-white/10 duration-150 px-2 group text-white/80 hover:text-white-100"
-      href={unlockUrl}
+      href={unlockUrl} download = "Download"
       target="_blank"
       rel="noreferrer"
     >
