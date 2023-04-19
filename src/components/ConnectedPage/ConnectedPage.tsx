@@ -56,7 +56,7 @@ const ConnectedPage = () => {
                   <UnlockLink
                     key={`${unlock.item.id}${unlock.accessLink}`}
                     title={unlock.item.name}
-                    unlockUrl={"Download"}
+                    unlockUrl={unlock.accessLink}
                     cid={unlock.item.cid}
                   />
                 ))}
