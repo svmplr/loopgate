@@ -32,7 +32,7 @@ const UnlockLink = ({ title, unlockUrl, cid, filename }: Props) => {
         <h2 className="group-hover:text-sky-500 duration-150 font-display">
           {title ? title : "Untitled"}
         </h2>
-        <p className="truncate w-40 text-sm text-cyan-100/40">{cid}</p>
+        <p className="truncate w-40 text-sm text-cyan-100/40">{"Download"}</p>
       </div>
 
       {/* download icon */}

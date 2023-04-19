@@ -58,7 +58,7 @@ const ConnectedPage = () => {
                   title={unlock.item.name}
                   unlockUrl={unlock.accessLink}
                   cid={unlock.item.cid}
-                  filename={unlock.item.filename}
+                  filename={unlock.item.name}
                 />
                 ))}
               </div>
