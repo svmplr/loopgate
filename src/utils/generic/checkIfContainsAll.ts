@@ -1,16 +1,7 @@
 import { ConfigError } from "../../config/types";
 
-/**
- * Compares two arrays, returns true if the target array contains all values of the config array.
- * @param config
- * @param target
- * @returns whether the target array contains all values of the config array
- */
-const checkIfContainsAll = (config: string[], target: string[]) => {
-  if (config.length === 0) {
-    throw new ConfigError("Empty config file");
-  }
-  return config.every((x) => target.includes(x));
+const checkIfContainsAll = (arr1: any[], arr2: any[]) => {
+  return arr1.every((value) => arr2.includes(value));
 };
 
 export default checkIfContainsAll;

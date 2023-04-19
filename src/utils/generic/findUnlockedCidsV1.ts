@@ -1,8 +1,9 @@
-import { unlockables } from "../../config/config";
-import { checkIfContainsAll } from "./index";
+/**import { unlockables } from "../../config/config";
+import { checkIfContainsAllV1 } from "./index";
 import { Unlockable, ConfigError } from "../../config/types";
 
-const findUnlockedCids = (
+
+/**const findUnlockedCidsV1 = (
   nfts: string[],
   unlockablesArray: Unlockable[] = unlockables
 ) => {
@@ -10,13 +11,15 @@ const findUnlockedCids = (
     throw new ConfigError("Empty config file");
   }
 
+  // For each row in the config, check if the user holds all NFTs necessary to unlock them.
   const unlocks = unlockablesArray.filter((item) =>
-    checkIfContainsAll(item.nftId, nfts)
+  checkIfContainsAllV1(item.nftId, nfts)
   );
 
+  // We're only interested in the CIDs
   const cids = unlocks.map((item) => item.cid);
 
   return cids;
 };
 
-export default findUnlockedCids;
+export default findUnlockedCidsV1;*/
