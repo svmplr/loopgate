@@ -6,6 +6,8 @@ import Spinner from "../Spinner";
 import { useAccount } from "wagmi";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { downloadFile } from "../utils/downloadFile";
+
 
 const ConnectedPage = () => {
   const { address } = useAccount();
@@ -25,16 +27,23 @@ const ConnectedPage = () => {
       });
   };
 
-  // On render: make API calls to determine NFT holdings
-  // 1.: GET user's Loopring ID            (Loopring API)
-  // 2.: GET user's NFTs                   (Loopring API)
-  // 3.: Check config to compare NFTs and unlocks
-  // 4.: GET submarined content            (Pinata API)
-
   useEffect(() => {
     setIsLoading(true);
     getUserUnlocks(address);
   }, [address]);
+
+  // Download the file when UnlockLink component is clicked
+  const handleUnlockLinkClick = (unlockUrl: string) => {
+    setIsLoading(true);
+    downloadFile(unlockUrl)
+      .then(() => {
+        setIsLoading(false);
+      })
+      .catch((error) => {
+        toast.error(error.message);
+        setIsLoading(false);
+      });
+  };
 
   return (
     <div className="flex flex-col items-center flex-grow space-y-8">
@@ -58,6 +67,7 @@ const ConnectedPage = () => {
                     title={unlock.item.name}
                     unlockUrl={unlock.accessLink}
                     cid={unlock.item.cid}
+                    onClick={() => handleUnlockLinkClick(unlock.accessLink)}
                   />
                 ))}
               </div>
