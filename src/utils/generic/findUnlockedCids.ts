@@ -1,5 +1,5 @@
 import { unlockables } from "../../config/config";
-import { checkIfContainsAny } from "./index";
+import { checkIfContainsAll } from "./index";
 import { Unlockable, ConfigError } from "../../config/types";
 
 // Compare NFTs owned by an individual to the configurated combinations to find unlockable content
@@ -19,7 +19,7 @@ const findUnlockedCids = (
 
   // For each row in the config, check if the user holds all NFTs necessary to unlock them.
   const unlocks = unlockablesArray.filter((item) =>
-    checkIfContainsAny(item.nftId, nfts)
+    checkIfContainsAll(item.nftId, nfts)
   );
 
   // We're only interested in the CIDs
