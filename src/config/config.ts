@@ -30,10 +30,10 @@ const unlockables: Unlockable[] = [
 
 
                 //        If you got any, you get access
-  {            //       [BONUS] SVMPLR - CYBERRAVE II
+  {            //       [BONUS] CYBER RAVE II | DJ Set
   
     cid: "bafybeignblyryrcyyyqft5l2btzfcqdlw6a32baat3ddjr7rz5boruakna",
-    name: '[BONUS] SVMPLR - CYBERRAVE II',
+    name: '[BONUS] CYBER RAVE II | DJ Set',
     nftId: [
       "0xe61495b628bcd46414e6145c50a89cc9833a15689a3e8e8481339f33f563f651", // No Sleep
       "0x95629a13d2bb9d89927f5d4a08a721ab1b6c4eb22ed4891b09fd4dbdd47360f3", // Remedy
@@ -52,6 +52,15 @@ const unlockables: Unlockable[] = [
     requireAll: false,
   },
 
+                //        If you got [RORSCHACH]
+  {            //       [BONUS] CYBER RAVE II | DJ Set
+    cid: "bafybeifqccknhebwqwcd2bjgvvmnxwwk25qn5xla5i4twffhi52jdeckwe",
+    name: '[BONUS] CYBER RAVE I | DJ SET',
+    nftId: [
+      "0x1703cb457a2c270c8e016f26a0295aafa6356b2cbd11cbb6b1daa0cca0a9e20e", // '[BONUS] CYBER RAVE I | DJ SET
+    ],
+    requireAll: true,
+  },
 /////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -207,14 +216,6 @@ const unlockables: Unlockable[] = [
   {                 //                                                //
     cid: "bafybeifjranyb5zgcasfffqkgamvo7jna3454socozn26xe6q6qyrjrd74",
     name: '[MIXTAPE] Rorschach',
-    nftId: [
-      "0x1703cb457a2c270c8e016f26a0295aafa6356b2cbd11cbb6b1daa0cca0a9e20e", // [MIXTAPE] Rorschach
-    ],
-    requireAll: true,
-  },
-  {
-    cid: "bafybeifqccknhebwqwcd2bjgvvmnxwwk25qn5xla5i4twffhi52jdeckwe",
-    name: '[BONUS] CYBERRAVE I | DJ SET',
     nftId: [
       "0x1703cb457a2c270c8e016f26a0295aafa6356b2cbd11cbb6b1daa0cca0a9e20e", // [MIXTAPE] Rorschach
     ],
