@@ -1,3 +1,4 @@
+/*
 import FooterLink from "./FooterLink";
 import { TwitterIcon, SpotifyIcon, MailIcon, EthereumIcon } from "../Icons/Icons";
 
@@ -29,4 +30,7 @@ const Footer = () => {
   );
 };
 
+
+
 export default Footer;
+*/
