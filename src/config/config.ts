@@ -4,22 +4,23 @@ import { Unlockable } from "./types";
 const unlockables: Unlockable[] = [
   {
     cid: "ENTER CID HERE, STARTS WITH BAF",
-    name: 'NAME OF FILE',
+    name: 'NAME OF FILE', - Will use name of Pinata file if blank.
     nftId: [
       "ENTER NFT ID HERE",
     ],
+    requireAll: TRUE OR FALSE, (IF BLANK = FALSE)
   },
   {
     cid: "ENTER CID HERE, STARTS WITH BAF",
-    name: 'NAME OF FILE',
+    name: 'NAME OF FILE',- Will use name of Pinata file if blank.
     nftId: [
-      "ENTER NFT ID HERE",
-      "0xcb322d249745d385d63232d844ddb2f997642f0a3166a2119e2d45e1df865bc0",
-      "0xca82f5764f8b798cfff469e7c227c411fc7a039c6ab65e886297b5ffcc2a6b2e",
-      "0xb54b0bd6c73ed02cd5cce5e80b84a31f04d8c3bcb291482a7cd75456c5f596e9",
-      "0x42a9e416d3ce9cf023d151869a3939535227b4f4abb0785b9abc5fccebfc2645",
+      "0x - ENTER NFT ID HERE",
+      "0x",
+      "0x",
+      "0x",
+      "0x",
     ],
-    requireAll: TRUE OR FALSE, (TRUE SHOULD BE DEFAULT)
+    requireAll: TRUE OR FALSE, (IF BLANK = FALSE)
   },
 ];
 

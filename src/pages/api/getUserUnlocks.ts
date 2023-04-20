@@ -2,8 +2,8 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { findUnlockedCids } from "../../utils/generic";
 import { getAllUserNftIds, getUserAddress } from "../../utils/loopring";
 import { getPinataIndexLink } from "../../utils/pinata";
-import { withSessionRoute } from "@/src/utils/iron-session/withSession";
-import { siwe } from "@/src/utils/siwe";
+import { withSessionRoute } from "../../utils/iron-session/withSession";
+import { siwe } from "../../utils/siwe";
 
 // Summary of what happens:
 // 1️⃣ Call the Loopring API to find the User's Loopring Account ID
