@@ -1,9 +1,8 @@
-/*
 import FooterLink from "./FooterLink";
 import { TwitterIcon, SpotifyIcon, MailIcon, EthereumIcon } from "../Icons/Icons";
 
 // <FooterLink href="https://svmplr.com">← Back to SVMPLR.com</FooterLink>
-
+/*
 const Footer = () => {
 
   return (
@@ -30,7 +29,6 @@ const Footer = () => {
   );
 };
 
-
+*/
 
 export default Footer;
-*/
